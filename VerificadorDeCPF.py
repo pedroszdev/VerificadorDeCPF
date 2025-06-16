@@ -1,4 +1,4 @@
-cpf='009811700990'
+cpf='52089953012'
 nove_digitos=cpf[:9]
 dez_digitos=cpf[:10]
 ultimo_dois_digitos=cpf[9:]
