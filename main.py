@@ -42,9 +42,9 @@ while True:
         system('cls')
 
         cpf_novo=cpf_tratado(cpf)
-        if not len(cpf_novo)==11:
+        if len(cpf_novo)> 11:
             print('-'*30)
-            print(f'O {cpf} não está correto')
+            print(f'O número que voce digitou {cpf} não está correto')
             print('-'*30)
             continue
     elif resp=='2':
@@ -65,12 +65,12 @@ while True:
 
     if digito_1 == int(ultimo_dois_digitos[0]) and digito_2 == int(ultimo_dois_digitos[1]):
         print('-'*30)
-        print(f'O {cpf} está correto')
+        print(f'O cpf {cpf} está correto')
         print('-'*30)
-        sleep(1.5)
+        sleep(2.5)
 
     else:
         print('-'*30)
-        print(f'O {cpf} não está correto')
+        print(f'O cpf {cpf} não está correto')
         print('-'*30)
-        sleep(1.5)
+        sleep(2.5)
