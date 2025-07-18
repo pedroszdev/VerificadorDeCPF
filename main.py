@@ -29,6 +29,8 @@ def cpf_tratado(cpf):
         if numero.isdigit():
             cpf_novo+=numero
     return cpf_novo
+
+
 while True:
     menu() 
     resp=input('Escolha uma opção: ')
